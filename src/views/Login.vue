@@ -4,7 +4,7 @@
       <div class="form__logo">
         <Logo />
       </div>
-      <h1 class="title">Register</h1>
+      <h1 class="title">Login</h1>
     </div>
     <div class="form__main">
       <div class="form__group">
@@ -12,16 +12,8 @@
         <input v-model="userName" type="text" class="form-input" />
       </div>
       <div class="form__group">
-        <label> Email </label>
-        <input v-model="email" type="email" class="form-input" />
-      </div>
-      <div class="form__group">
         <label> Password </label>
         <input v-model="password" type="password" class="form-input" />
-      </div>
-      <div class="form__group">
-        <label> Confirm Password </label>
-        <input type="password]" class="form-input" />
       </div>
       <div class="form__group">
         <button class="form__button">Register</button>
