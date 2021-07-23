@@ -1,6 +1,7 @@
 <template>
   <form class="form" @submit.prevent="registerFormClickHandler()">
     <div class="form__title">
+      <div class="fomr_back"></div>
       <div class="form__logo">
         <Logo />
       </div>
@@ -26,6 +27,10 @@
       <div class="form__group">
         <button class="form__button">Register</button>
       </div>
+
+      <router-link to="/login" class="form__back"
+        >Back to login form</router-link
+      >
     </div>
   </form>
 </template>
@@ -56,7 +61,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .form {
   position: relative;
   background: #fff;

@@ -16,7 +16,7 @@
         <input v-model="password" type="password" class="form-input" />
       </div>
       <div class="form__group">
-        <button class="form__button">Register</button>
+        <button class="form__button">Login</button>
       </div>
     </div>
   </form>
@@ -48,7 +48,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .form {
   position: relative;
   background: #fff;
